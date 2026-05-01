@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA,KACE,iBAHW,IAIX,MAAA","file":"../main.css","sourcesContent":["$cordefundo: red;\r\n\r\nbody {\r\n  background-color: $cordefundo;\r\n  color: #eee;\r\n}\r\n"]}
