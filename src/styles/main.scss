@@ -1,6 +1,7 @@
 @use "variaveis";
 @use "hero";
-
+@use "shows";
+@use "plans";
 @font-face {
   font-family: Avenir;
   src: url(../../assets/fonts/Avenir-Regular.woff2);
@@ -61,4 +62,17 @@ body {
 }
 .title--small {
   @include title(28px);
+}
+
+.button {
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  color: variaveis.$corTextoSecundaria;
+  background-color: #6521ff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-top: 2vw;
+  margin-bottom: 8px;
 }
